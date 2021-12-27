@@ -41,6 +41,7 @@ Here, we store the number of terms in nterms. We initialize the first term to 0 
 If the number of terms is more than 2, we use a while loop to find the next term in the sequence by adding the preceding two terms. We then interchange the variables (update it) and continue on with the process.
 
 # You can also solve this problem using recursion:
+# Source Code
 ```python3
 def fibo(n):
     if n <= 1:
