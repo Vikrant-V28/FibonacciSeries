@@ -1,10 +1,17 @@
+<div align="center">
+  <img height="60" src="https://user-images.githubusercontent.com/85709371/156916372-d8c1bbdd-5fe9-40d1-a250-5a1d4d454832.png">
+</div>
+
 <h1 align="center">Fibonacci Series</h1>
 
 A Fibonacci sequence is the integer sequence of 0, 1, 1, 2, 3, 5, 8....
 The first two terms are 0 and 1. All other terms are obtained by adding the preceding two terms. This means to say the nth term is the sum of (n-1)th and (n-2)th term.
+* In this program, you'll learn to print the Fibonacci sequence using while loop.
 
-In this program, you'll learn to print the Fibonacci sequence using while loop.
-# Source Code
+### Prerequisites
+`Python 3`
+
+### Source Code
 ```python3
 # Program to display the Fibonacci sequence up to n-th term
 
@@ -34,14 +41,15 @@ else:
        count += 1
 ```
 
-# Output
+## Output
 ![Screenshot (153)](https://user-images.githubusercontent.com/85709371/147452665-71f070b5-27a6-419e-a2a8-f938ca271064.png)
+
 Here, we store the number of terms in nterms. We initialize the first term to 0 and the second term to 1.
 
 If the number of terms is more than 2, we use a while loop to find the next term in the sequence by adding the preceding two terms. We then interchange the variables (update it) and continue on with the process.
 
-# You can also solve this problem using recursion:
-# Source Code
+## You can also solve this problem using recursion:
+### Source Code
 ```python3
 def fibo(n):
     if n <= 1:
@@ -59,5 +67,8 @@ else:
         print(fibo(i))
 ```
 
-# Output
+## Output
 ![Screenshot (155)](https://user-images.githubusercontent.com/85709371/147453381-a5b622a3-8e49-4d73-803d-11e468acefb1.png)
+
+## *Author Name*
+[Vikrant](https://github.com/vikrant-v28)
